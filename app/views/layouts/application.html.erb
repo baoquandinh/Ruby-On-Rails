@@ -22,16 +22,32 @@
       </div>
     </div>
     <div class="col-4 slogan">
-      Splutring out usless and intelligent quotes about life since 1993
+      Splurting out useless and intelligent quotes about life since 1994
     </div>
     <div class="col-5 links">
-    <%== link_to 'Contribute', '#'%>
+    <%= link_to 'Contribute', '#'%>
     <%= link_to 'About', '#'%>
     </div>
   </header>
-  
   <hr />
   <br class="clear" />
+
+  <div class="container">
     <%= yield %>
+  </div>
+
+  <div class="footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-6">
+          <%= link_to "This isn't enough, I need more", "#", class: 'next-quote' %>
+        </div>
+        <div class="col-6 font-blurb">Proudly created by <a href="https://splurty-baoquan-dinh.herokuapp.com/">Baoquan Dinh</a><br />
+        Want to build your own Splurty Web App - <a href="https://online.bootcampspot.com">Learn how to code here</a>
+        </div>
+        </div>
+    </div>
+  </div>
+
   </body>
 </html>
