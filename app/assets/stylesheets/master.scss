@@ -1,4 +1,10 @@
 @import "bootstrap";
+@import url('https://fonts.googleapis.com/css?family=Overpass');
+
+
+h1,h2, .links{
+     font-family: 'Overpass', sans-serif;
+}
 
 hr {
     clear: both;
