@@ -51,9 +51,9 @@
           </div>
           <%= simple_form_for Quote.new do |f| %>
           <div class="modal-body">
-            <%= f.input :saying, label: "What is the saying you want to add?", placeholder: "What should I put here" %>
+            <%= f.input :saying, label: "What is the saying you want to add?", placeholder: "Insert quote here "%>
             <br />
-            <%= f.input :author, label: "Who is saying that quote?", placeholder: "Some person" %>
+            <%= f.input :author, label: "Who is saying that quote?", placeholder: "Insert author of that quote here" %>
           </div>
           <div class="modal-footer">
             <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
@@ -81,7 +81,7 @@
     <div class="container">
       <div class="row">
         <div class="col-12 col-sm-6">
-          <%= link_to "This isn't enough, I need more", root_path, class: 'next-quote' %>
+          <%= link_to "This isn't enough, I need more", root_path , class: 'next-quote' %>
         </div>
         <div class="col-12 col-sm-6 font-blurb">Proudly created by <a href="https://splurty-baoquan-dinh.herokuapp.com/">Baoquan Dinh</a><br />
           Want to build your own Splurty Web App - <a href="https://online.bootcampspot.com">Learn how to code here</a>
